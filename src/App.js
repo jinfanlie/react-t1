@@ -12,10 +12,10 @@ const fs = require('fs');
 
 var config =
 {
-    host: 'your_server_name.mysql.database.azure.com',
-    user: 'your_admin_name',
-    password: 'your_admin_password',
-    database: 'quickstartdb',
+    host: 'xiangmu1-sqlserver.database.windows.net',
+    user: 'guanliyuan',
+    password: 'Jinzhongmin032!',
+    database: 'sql-tbl1',
     port: 3306,
     ssl: {ca: fs.readFileSync("your_path_to_ca_cert_file_DigiCertGlobalRootCA.crt.pem")}
 };
