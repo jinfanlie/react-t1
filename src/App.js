@@ -5,13 +5,14 @@ import { Redirect, Route, Switch } from 'react-router-dom';
 import { withRouter } from 'react-router';
 import { HeaderBar, NavBar, NotFound } from './components';
 import About from './About';
-
+const mysql = require('mysql2');
 const Products = withRouter(
   lazy(() => import(/* webpackChunkName: "products" */ './products/Products'))
 );
 
 class App extends Component {
   render() {
+    
     return (
       <div>
         <HeaderBar />
